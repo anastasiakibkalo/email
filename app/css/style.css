@@ -1,30 +1,51 @@
 .container {
   max-width: 680px;
-  padding: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
   margin: 0 auto;
   background: #080d20;
   width: 100%;
 }
-.logotype {
+.logo {
   max-width: 120px;
   display: block;
 }
 .header {
-  background-image: url("https://raw.githubusercontent.com/anastasiakibkalo/email/master/app/img/bg1.png");
-  padding-bottom: 410px;
+  background-image: url("https://raw.githubusercontent.com/anastasiakibkalo/email/master/app/img/1st_screen%402x.png");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-position: center top;
 }
 .header-wrapper {
   max-width: 420px;
+}
+.header-logo {
+  max-width: 420px;
+}
+.header-logo--wrap {
+  padding-top: 30px;
+}
+.header-description {
+  max-width: 420px;
+}
+.header-description--wrap {
+  padding-top: 299px;
+}
+.header-description--wrap p {
+  color: #44acff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
 }
 .section1 {
   background-image: url("https://raw.githubusercontent.com/anastasiakibkalo/email/master/app/img/Rectangle.png");
   background-size: cover;
 }
 .section1-title {
-  padding-top: 40px;
+  padding-top: 68px;
 }
 .section1-title h1 {
   color: #fff;
@@ -80,7 +101,8 @@
   width: 72px;
 }
 .offers-item {
-  padding: 5px 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 .offers-item-wrap {
   border-radius: 5px;
