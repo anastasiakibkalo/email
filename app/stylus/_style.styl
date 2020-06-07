@@ -28,7 +28,7 @@
     &-description
         max-width 420px
         &--wrap
-            padding-top 299px
+            // padding-top 299px
             p 
                 color #44acff
                 font-family Arial
@@ -36,12 +36,18 @@
                 font-weight 700
                 line-height 20px
 
+.top
+    &-img
+        img
+            width 100%
 
 .section1 
     background-image url('https://raw.githubusercontent.com/anastasiakibkalo/email/master/app/img/Rectangle.png')
     background-size cover
     &-title 
-        padding-top 68px
+        padding-top 40px
+        padding-right 10px
+        padding-left 10px
         h1
             color #ffffff
             font-family: 'Arial', sans-serif;
@@ -49,7 +55,10 @@
             font-weight 700
             line-height 25px
     &-description
-        padding 10px 0 16px
+        padding-top 10px
+        padding-right 10px
+        padding-left 10px
+        padding-bottom 16px
         p
             color rgba(255, 255, 255, .5)
             font-family: 'Arial', sans-serif;
@@ -75,7 +84,8 @@
             
 .table
     &-wrapper__content
-        max-width 420px
+        max-width 440px
+        width 100%
 
 .offers
     &-title
@@ -89,9 +99,17 @@
             padding-right 4px
         &--vspace
             width 72px
+            &-2
+                width 28px
+        &-w
+            width 116px
     &-item
         padding-top 5px
         padding-bottom 5px
+        padding-left 10px
+        padding-right 10px
+        table
+            width 100%
         &-wrap 
             border-radius 5px
             background-color #ffffff
@@ -139,10 +157,14 @@
         line-height 25px
         text-transform uppercase
         padding 21px 50px 24px
+        text-decoration none
 
 .footer
     &-info
-        padding 80px 0
+        padding-top 80px
+        padding-right 10px
+        padding-left 10px
+        padding-bottom 80px
         p
             display inline-block
             opacity 0.5
@@ -150,6 +172,11 @@
             font-family "Arial", sans-serif;
             font-size 16px
             line-height 20px
+    &-item
+        &-left
+            text-align left
+        &-right
+            text-align right
 
 .social
     width 29px
@@ -161,29 +188,6 @@
         width auto
         display inline-block
 
-           
 
-// @media (max-width: 600px) { 
-//     .header{
-//         padding-bottom: 350px;
-//     }
-// }
-// @media (max-width: 550px) { 
-//     .header{
-//         padding-bottom: 320px;
-//     }
-// }
-// @media (max-width: 480px) { 
-//     .header{
-//         padding-bottom: 280px;
-//     }
-// }
-// @media (max-width: 410px) { 
-//     .header{
-//         padding-bottom: 250px;
-//     }
-// }
-            
-  
-
-
+.w-100
+    width 100%
