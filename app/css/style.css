@@ -28,11 +28,16 @@
   padding-top: 30px;
 }
 .header-description {
+  color: #44acff;
+  font-family: 'Arial', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
   max-width: 420px;
 }
 .header-description--wrap p {
   color: #44acff;
-  font-family: Arial;
+  font-family: 'Arial', sans-serif;
   font-size: 15px;
   font-weight: 700;
   line-height: 20px;
@@ -178,7 +183,7 @@
   padding-top: 80px;
   padding-right: 10px;
   padding-left: 10px;
-  padding-bottom: 80px;
+  padding-bottom: 50px;
 }
 .footer-info p {
   display: inline-block;
